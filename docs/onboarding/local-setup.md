@@ -16,8 +16,8 @@
 ## 1. 저장소 클론 및 의존성 설치
 
 ```bash
-git clone <repo-url>
-cd project
+git clone https://github.com/newgirok/openworld.git
+cd openworld
 npm install
 ```
 

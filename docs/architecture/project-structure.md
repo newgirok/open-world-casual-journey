@@ -24,6 +24,9 @@ project/
 │   └── ui/                       ← 공통 UI (버튼, 카드, 토스트)
 │
 ├── lib/                          ← 클라이언트 공유 로직
+│   ├── supabase/
+│   │   ├── client.ts             ← 브라우저용 Supabase 클라이언트
+│   │   └── server.ts             ← 서버·미들웨어용 Supabase 클라이언트
 │   ├── map/
 │   │   ├── context.ts            ← WebGL Context Sharing 초기화 (단일 진입점)
 │   │   ├── camera.ts             ← Camera Hijack + 카메라 잠금
